@@ -1,0 +1,4 @@
+tasks:
+  - name: Update apt cache
+    apt:
+    ... (all the tasks from deploy-java-app.yml)

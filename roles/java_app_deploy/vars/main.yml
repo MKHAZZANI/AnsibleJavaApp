@@ -1,0 +1,4 @@
+java_version: openjdk-17-jdk
+app_name: application.jar
+app_port: 8080
+deploy_user: deployuser

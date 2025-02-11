@@ -1,0 +1,11 @@
+[Unit]
+Description=Your Java Application
+After=network.target
+
+[Service]
+User=deployuser
+WorkingDirectory=/opt/app/
+ExecStart=/usr/bin/java -jar /opt/app/application.jar
+
+[Install]
+WantedBy=multi-user.target
